@@ -70,3 +70,35 @@
         font-weight: 500;
     }
 }
+@media (max-height: 640px){
+    section main #btnSubmit{
+        top: 140%;
+    }
+    section main #msg{
+        top: 125%;
+    }
+}
+@media (max-height: 535px){
+    section main #btnSubmit{
+        top: 120%;
+    }
+    section main #msg{
+        top: 105%;
+    }
+}
+@media (max-height: 443px){
+    section main #btnSubmit{
+        top: 100%;
+    }
+    section main #msg{
+        top: 85%;
+    }
+}
+@media (max-height: 336px){
+    section main #btnSubmit{
+        top: 80%;
+    }
+    section main #msg{
+        top: 65%;
+    }
+}
