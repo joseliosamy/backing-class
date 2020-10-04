@@ -51,6 +51,12 @@ section main #btnSubmit img{
 section main #btnSubmit:hover{
     background-color: #ffffff10;
 }
+section main .msg{
+    display: none;
+}
+section main #msg{
+    display: block;
+}
 section main #input{
     display: flex;
     flex-direction: column;
