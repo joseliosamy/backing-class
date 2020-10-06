@@ -72,13 +72,13 @@
 }
 @media (max-height: 640px){
     section main #btnSubmit{
-        top: 140%;
+        top: 110%;
     }
     section main #msg{
-        top: 125%;
+        top: 95%;
     }
 }
-@media (max-height: 535px){
+@media (max-height: 500px){
     section main #btnSubmit{
         top: 120%;
     }
@@ -86,12 +86,12 @@
         top: 105%;
     }
 }
-@media (max-height: 443px){
+@media (max-height: 484px){
     section main #btnSubmit{
-        top: 100%;
+        top: 90%;
     }
     section main #msg{
-        top: 85%;
+        top: 75%;
     }
 }
 @media (max-height: 336px){
