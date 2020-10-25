@@ -54,6 +54,9 @@ section main #btnSubmit:hover{
 section main .msg{
     display: none;
 }
+section main .msg2{
+    display: none;
+}
 section main #msg{
     display: block;
 }
@@ -91,8 +94,4 @@ section main #inputName:focus{
 section main #inputName:hover{
     background-color: #ffffff10
 }
-header{
-    width: 100vw;
-    height: 100px;
 
-}
