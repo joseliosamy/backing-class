@@ -57,6 +57,9 @@ section main .msg{
 section main .msg2{
     display: none;
 }
+section main .msg3{
+    display: none;
+}
 section main #msg{
     display: block;
 }

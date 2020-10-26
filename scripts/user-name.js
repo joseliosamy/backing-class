@@ -8,7 +8,7 @@ userName()
 
 
 function sair(){
-    sessionStorage.removeItem("nome");
+    sessionStorage.setItem("nome", "");
     window.location = "/index.html"
 }
 const btnLogout = document.getElementById("logout");
