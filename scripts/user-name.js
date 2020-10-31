@@ -9,7 +9,7 @@ userName()
 
 function sair(){
     sessionStorage.setItem("nome", "");
-    window.location = "/index.html"
+    window.location = "/pages/index.html"
 }
 const btnLogout = document.getElementById("logout");
 btnLogout.addEventListener("click", sair);
