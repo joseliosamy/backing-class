@@ -1,7 +1,7 @@
 function userName(){
     const spanNome = document.getElementById("username")
     if(sessionStorage.getItem("nome")){
-        spanNome.textContent = sessionStorage.getItem("nome"); 
+        spanNome.textContent = sessionStorage.getItem("nome") + "👨🏼‍💻"; 
     }
 }
 userName()
