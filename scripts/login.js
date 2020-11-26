@@ -4,6 +4,7 @@ function entrar(){
     var msg2 = document.querySelector(".msg2")
     var msg = document.querySelector(".msg");
     var msg3 = document.querySelector(".msg3")
+    var boxLoading = document.querySelector("#box-loading")
     if(nome.length == 0){ // condiciona o nome a vazio, caso seja true, executa o codigo abaixo 
         var msg = document.querySelector(".msg"); //observa o valor de .labelSubmito 
         msg.setAttribute("id", "msg")
@@ -33,8 +34,16 @@ function entrar(){
     // TRATAMENTO DE NÚMEROS NOS NOMES 
     // RELOCATION DO USER SEM SESSION ATIVA
     else{
+        boxLoading.style.display = "none"
+        if(boxLoading.style.display = "none"){
+            boxLoading.style.display = "flex"
+        }
+        else{
+            boxLoading.style.display = "none"
+        }
         sessionStorage.setItem("nome", nome);
-        window.location = "/pages/user-page.html"
+        window.location = "maintenance.html"
+
     }
     
 }
