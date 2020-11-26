@@ -1,3 +1,6 @@
+body{
+    animation: opacity 500ms linear;
+}
 #box-loading{
     display: none;
     width: 35px;
@@ -43,5 +46,13 @@
 @keyframes a1{
     to{
         transform: rotate(360deg);
+    }
+}
+@keyframes opacity{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
     }
 }
