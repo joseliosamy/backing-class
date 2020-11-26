@@ -42,7 +42,7 @@ function entrar(){
             boxLoading.style.display = "none"
         }
         sessionStorage.setItem("nome", nome);
-        window.location = "maintenance.html"
+        window.location = "pages/maintenance.html"
 
     }
     
