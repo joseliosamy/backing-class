@@ -2,10 +2,10 @@
 // CONFIRMAR SESSÃO NA USER PAGE
 function sessionConfirm(){
     if(sessionStorage.getItem("nome") == undefined || sessionStorage.getItem("nome") == ""){
-        window.location = "/pages/index.html";
+        window.location = "/index.html";
     }
 }
-sessionConfirm()
+// sessionConfirm()
 
 ////////////////////////////////////////////////////////////////////////
 

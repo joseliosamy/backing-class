@@ -7,8 +7,8 @@
     <!--styles USER-PAGE-->
     <link rel="stylesheet" href="/styles/partials/universal.css">
     <link rel="stylesheet" href="/styles/partials/header.css">
-    <link rel="stylesheet" href="/styles/main.css">
-    <link rel="stylesheet" href="/styles/responsive-user-page.css">
+    <link rel="stylesheet" href="/styles/user-page.css">
+    <link rel="stylesheet" href="/styles/responsive.css">
 
     <!--fonte poppins-->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,800;1,400&display=swap" rel="stylesheet">
@@ -16,26 +16,62 @@
     <!--font-awesome cdn-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
-    <title>Backing Class</title>
+    <title>Backing Class | Início</title>
     
 </head>
 <body>
-    <section>
-        <div id="user">
-            <div class="name">
-                 <img id="btnSettings"src="/images/seta-para-baixo.svg" alt="row-bottom">
-                <span id="username"></span>
-            </div>
-                    
-            <ul class="user-settings-off">
-                <li class="button-settings">Configuraçôes</li>
-                <li id="logout" class="button-settings">Sair</li>
-            </ul> 
-        </div>
+    <header>
+        <nav>
+            <ul>
+                <a href="/pages/user-page">
+                    <li>
+                        <i class="fa fa-home" aria-hidden="true" style="font-size: 36px;"></i>
+                    </li>
+                </a>
 
+                <a href="#">
+                    <li>
+                        <i class="fa fa-book" aria-hidden="true"></i>
+                    </li>
+                </a>
+
+                <a href="#">
+                    <li>    
+                        <i class="fa fa-users" aria-hidden="true"></i>
+                    </li>
+                </a>
+
+                <a href="#">
+                    <li>
+                        <i class="fa fa-info-circle" aria-hidden="true" style="font-size: 33px;"></i>
+                    </li>
+                </a>
+            </ul>
+        </nav>
+        <div id="user">
+                <div class="name">
+                    <span id="username">WWWWWWWWWW</span>
+                        
+                    <div class="box-drop">
+                         <span id="user-photo"></span>
+
+                        <i id="btnSettings" class="fa fa-sort-desc" aria-hidden="true"></i>
+                    </div>      
+                </div>
+                        
+                <ul class="user-settings-off">
+                    <li class="button-settings">Configuraçôes</li>
+                    <li id="logout" class="button-settings">Sair</li>
+                </ul> 
+            </div>
+    </header>
+
+    <section>
+        
+            
     </section>
 
-    <script src="/scripts/user-name.js"></script>
-    <script src="/scripts/user-page.js"></script>
+    <script src="/scripts/user-name.js"></script><!--U-NAME-->
+    <script src="/scripts/user-page.js"></script><!--U-PAGE-->
 </body>
 </html>

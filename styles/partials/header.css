@@ -1,0 +1,104 @@
+/*
+    --colorPrimary: #FB8F15;
+    --colorSecondary: #e9e9e9;
+    --colorTertiary: #ffee00;
+    --colorQuaternary: #00d9ff;
+    --colorTextPrimary: #e9e9e9;
+    --colorTextSecondary: #123849;;
+    */
+header{
+    height:10vh;
+    background-image: url(/images/background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr 50% 1fr;
+    grid-template-areas: "logo nav user";
+}
+header nav{
+    grid-area: nav;
+    display: flex;
+    justify-content: end;
+}
+header nav ul{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+header nav ul a{
+    width: 50px;
+    height: 100%;
+    text-decoration: none;
+    padding-top: 2px;
+    color: var(--colorTextPrimary);
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    transition: background-color 100ms;
+}
+header nav ul a li{
+    height: 100%;
+    width: 100%;
+    list-style: none;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+header nav ul a li:hover{
+    border-top: 5px solid black;
+    transform: translateY(-3px);
+}
+header nav ul a li .fa{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: var(--colorSecondary);
+    transition: color 200ms;
+}
+header nav ul a li .fa:hover{
+    color: var(--colorTextSecondary);
+    background-color: #e9e9e965;
+    border-radius: 0 0 10px 10px;
+}
+header #user{
+    grid-area: user;
+}
+header #user .name{
+    width: calc(100% - 100px);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+header #user .name .box-drop{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 5px 3px 10px 3px;
+    transition: 200ms;
+}
+header #user .name .box-drop:hover{
+    background-color: #e9e9e965;
+    border-radius: 0 0 10px 10px;
+    border-top: 5px solid black;
+}
+header #user .name .box-drop #user-photo{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0 3px;
+    background-color: aqua;
+}
+header #user .user-settings-off{
+    display: none;
+}   

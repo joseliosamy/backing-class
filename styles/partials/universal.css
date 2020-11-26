@@ -2,7 +2,14 @@
 font-family: 'Rubik', sans-serif;
 font-family: 'Titillium Web', sans-serif;
 */
-
+:root{
+    --colorPrimary: #FB8F15;
+    --colorSecondary: #e9e9e9;
+    --colorTertiary: #ffee00;
+    --colorQuaternary: #00d9ff;
+    --colorTextPrimary: #e9e9e9;
+    --colorTextSecondary: #123849;
+}
 *{
     padding: 0;
     margin: 0;
@@ -18,5 +25,5 @@ body{
     height: 100vh;
     -webkit-font-smoothing: antialiased;
 
-    background-color: #0b0d0f;
+    background-color: var(--colorPrimary);
 }
